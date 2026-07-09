@@ -2,7 +2,7 @@ import { Link, useLocation } from "wouter";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import logoUrl from "@assets/image_1783387127939.png";
+import logoUrl from "@/assets/logo.png";
 
 export default function Navbar() {
   const [location] = useLocation();
